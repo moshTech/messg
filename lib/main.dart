@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'pages/conversation_page_list.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -12,7 +14,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
       ),
-      home: MyHomePage(title: 'Testing Messg'),
+      // home: MyHomePage(title: 'Testing Messg'),
+      home: ConversationPageList(),
     );
   }
 }
